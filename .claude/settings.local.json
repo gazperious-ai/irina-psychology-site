@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx --version)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/thereisakuba256/.nvm/versions/**)",
+      "Bash(ls /usr/local/bin/ 2>/dev/null | head -20; ls /opt/homebrew/bin/ 2>/dev/null | head -20)",
+      "Read(//usr/local/**)",
+      "Bash(brew list *)",
+      "Bash(brew install *)"
+    ]
+  }
+}
