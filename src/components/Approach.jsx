@@ -48,8 +48,9 @@ export default function Approach() {
               className="heading-serif font-normal leading-tight"
               style={{ fontSize: 'clamp(1.75rem, 6vw, 3rem)' }}
             >
-              Как устроена{' '}
-              <em className="italic text-[#9aae91]">наша работа</em>
+              Открытый метод. Я{' '}
+              <em className="italic text-[#9aae91]">для вас</em>{' '}
+              — а не вы для меня
             </motion.h2>
           </div>
           <motion.p
@@ -58,8 +59,8 @@ export default function Approach() {
             transition={{ duration: 0.8, delay: 0.25 }}
             className="text-[#e8e0d5]/50 leading-relaxed font-light lg:max-w-sm"
           >
-            Терапия — это не быстрые советы. Это медленный, но настоящий процесс,
-            в котором вы постепенно получаете доступ к себе
+            Я владею достаточным количеством навыков, чтобы оказать вам
+            качественную помощь
           </motion.p>
         </div>
 
