@@ -52,7 +52,7 @@ export default function Hero() {
           <motion.div {...fadeUp(0.1)} className="flex items-center gap-4 mb-5 sm:mb-8">
             <span className="label-text">Психолог · Личная практика</span>
             <div className="divider rotate-90 origin-center" />
-            <span className="label-text">Москва · Онлайн</span>
+            <span className="label-text">Онлайн</span>
           </motion.div>
 
           {/* Headline */}
