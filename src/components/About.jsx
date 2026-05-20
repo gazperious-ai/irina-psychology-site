@@ -42,7 +42,7 @@ export default function About() {
                   className="absolute inset-0 w-full h-full transition-opacity duration-700"
                   style={{
                     objectFit: 'cover',
-                    objectPosition: 'center 15%',
+                    objectPosition: 'center 5%',
                     opacity: photoLoaded ? 1 : 0,
                     filter: 'saturate(0.85) brightness(0.92)',
                   }}

@@ -48,9 +48,8 @@ export default function Approach() {
               className="heading-serif font-normal leading-tight"
               style={{ fontSize: 'clamp(1.75rem, 6vw, 3rem)' }}
             >
-              Открытый метод. Я{' '}
-              <em className="italic text-[#9aae91]">для вас</em>{' '}
-              — а не вы для меня
+              <em className="italic text-[#9aae91]">Открытый метод</em>
+              {'. Я для вас — а не вы для меня'}
             </motion.h2>
           </div>
           <motion.p
