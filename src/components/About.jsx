@@ -3,12 +3,6 @@ import { motion, useInView } from 'framer-motion'
 
 const PHOTO_SRC = '/images/2026-05-20 13.27.13.jpg'
 
-const credentials = [
-  'МГУ, факультет психологии',
-  'Гештальт-терапия, сертификат МИГИП',
-  'Системная семейная терапия',
-  'Телесно-ориентированная практика',
-]
 
 export default function About() {
   const ref = useRef(null)
@@ -131,15 +125,6 @@ export default function About() {
               </p>
             </motion.div>
 
-            {/* Credentials */}
-            <motion.div {...fadeUp(0.45)} className="mt-8 sm:mt-10 space-y-2.5 sm:space-y-3">
-              {credentials.map((c) => (
-                <div key={c} className="flex items-start gap-3">
-                  <div className="mt-1.5 w-1 h-1 rounded-full bg-[#9aae91] shrink-0" />
-                  <span className="text-xs sm:text-sm text-[#e8e0d5]/50">{c}</span>
-                </div>
-              ))}
-            </motion.div>
           </div>
         </div>
       </div>
