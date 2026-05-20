@@ -136,6 +136,22 @@ export default function About() {
               </p>
             </motion.div>
 
+            <motion.ul
+              {...fadeUp(0.45)}
+              className="mt-8 sm:mt-10 space-y-2 border-t border-white/5 pt-6"
+            >
+              {[
+                'Бакалавр клинической психологии — ОНУ им. Мечникова',
+                '4 года обучения транзакционному анализу',
+                'Гештальт-терапия',
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2.5 text-xs text-[#e8e0d5]/28 font-light tracking-wide">
+                  <span className="mt-px text-[#9aae91]/35 shrink-0">·</span>
+                  {item}
+                </li>
+              ))}
+            </motion.ul>
+
           </div>
         </div>
       </div>
