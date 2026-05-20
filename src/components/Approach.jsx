@@ -59,7 +59,7 @@ export default function Approach() {
             className="text-[#e8e0d5]/50 leading-relaxed font-light lg:max-w-sm"
           >
             Терапия — это не быстрые советы. Это медленный, но настоящий процесс,
-            в котором вы постепенно получаете доступ к себе.
+            в котором вы постепенно получаете доступ к себе
           </motion.p>
         </div>
 

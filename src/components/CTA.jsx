@@ -60,8 +60,8 @@ export default function CTA() {
               transition={{ delay: 0.45 }}
               className="text-[#e8e0d5]/50 font-light leading-relaxed mb-12 mx-auto max-w-md"
             >
-              Первая консультация — знакомство без обязательств.
-              Просто напишите, и мы найдём время, которое подойдёт вам
+              Первая консультация — знакомство без обязательств,
+              просто напишите, и мы найдём время, которое подойдёт вам
             </motion.p>
 
             <motion.div

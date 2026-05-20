@@ -69,8 +69,8 @@ export default function Hero() {
             {...fadeUp(0.4)}
             className="text-[#e8e0d5]/55 text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-xl mb-8 sm:mb-10"
           >
-            Индивидуальная психотерапия для тех, кто готов к глубокой работе с собой.
-            Без шаблонов — только то, что важно именно вам.
+            Индивидуальная психотерапия для тех, кто готов к глубокой работе с собой —
+            без шаблонов, только то, что важно именно вам
           </motion.p>
 
           <motion.div {...fadeUp(0.55)} className="flex flex-wrap gap-3 sm:gap-4 items-center">

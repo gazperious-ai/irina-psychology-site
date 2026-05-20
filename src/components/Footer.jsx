@@ -57,7 +57,7 @@ export default function Footer() {
 
       <div className="container-wide mt-8 pt-8 border-t border-white/4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <p className="text-xs text-[#e8e0d5]/18">
-          © {new Date().getFullYear()} Ирина Зарудняк. Все права защищены.
+          © {new Date().getFullYear()} Ирина Зарудняк. Все права защищены
         </p>
         <p className="text-xs text-[#e8e0d5]/18">
           Конфиденциальность гарантирована
