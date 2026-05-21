@@ -86,19 +86,18 @@ export default function Hero() {
         {/* Outcome list */}
         <motion.div
           {...fadeUp(0.7)}
-          className="mt-5 sm:mt-6 max-w-xs hidden sm:block opacity-70"
+          className="mt-6 sm:mt-8 max-w-sm hidden sm:block"
         >
-          <p className="label-text text-[9px] mb-3 tracking-widest">Что меняется</p>
-          <ul className="space-y-1.5">
+          <p className="label-text text-[10px] mb-4">Что меняется</p>
+          <ul className="space-y-3">
             {[
               'Появляется ощущение собственной жизни, а не постоянного выживания',
-              'Становится легче замечать реальные возможности вокруг себя',
               'Приходит понимание, что с вами всё нормально',
               'Уменьшается тревога, внутреннее напряжение и стресс',
             ].map((item) => (
               <li
                 key={item}
-                className="heading-serif text-[11px] font-normal text-[#e8e0d5]/55 leading-snug italic"
+                className="text-xs text-[#e8e0d5]/50 font-light leading-relaxed tracking-wide"
               >
                 {item}
               </li>
