@@ -86,7 +86,7 @@ export default function Hero() {
         {/* Outcome list */}
         <motion.div
           {...fadeUp(0.7)}
-          className="mt-6 sm:mt-8 max-w-sm hidden sm:block"
+          className="mt-3 sm:mt-4 max-w-sm hidden sm:block"
         >
           <p className="label-text text-[10px] mb-4">Что меняется</p>
           <ul className="space-y-3">
